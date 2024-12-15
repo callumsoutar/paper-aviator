@@ -1,0 +1,16 @@
+[
+    {
+      "id": "airplane1",
+      "registration": "ZK-ABC",
+      "type": "Cessna 172",
+      "maintenanceStatus": "Serviceable",
+      "totalHours": 5000
+    },
+    {
+      "id": "airplane2",
+      "registration": "ZK-XYZ",
+      "type": "Piper Cub",
+      "maintenanceStatus": "Serviceable",
+      "totalHours": 3000
+    }
+  ]

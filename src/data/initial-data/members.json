@@ -1,0 +1,24 @@
+[
+    {
+      "id": "member1",
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@email.com",
+      "phone": "021123456",
+      "membershipType": "Full",
+      "membershipStatus": "Active",
+      "medicalExpiry": "2024-12-31",
+      "licenseNumber": "PPL123"
+    },
+    {
+      "id": "member2",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "jane.doe@email.com",
+      "phone": "021654321",
+      "membershipType": "Student",
+      "membershipStatus": "Active",
+      "medicalExpiry": "2024-06-30",
+      "licenseNumber": "SPL456"
+    }
+  ]

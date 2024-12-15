@@ -1,0 +1,216 @@
+@import '../../styles/shared.css';
+
+.aircraft-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.aircraft-list {
+  width: 300px;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.aircraft-item {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.aircraft-item.selected {
+  background-color: #e6f3ff;
+  border-color: #1890ff;
+}
+
+.aircraft-details {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.content-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(67, 146, 241, 0.08);
+  padding: 24px;
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.new-booking-btn {
+  background: var(--chefchaouen-blue);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(67, 146, 241, 0.2);
+}
+
+.new-booking-btn:hover {
+  background: #3a84e3;
+  transform: translateY(-1px);
+}
+
+.aircraft-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 24px;
+}
+
+.aircraft-list {
+  border-right: 1px solid #eee;
+  padding-right: 24px;
+}
+
+.aircraft-item {
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.aircraft-item:hover {
+  background: #f8f9fa;
+}
+
+.aircraft-item.selected {
+  background: var(--alice-blue);
+  border-color: var(--chefchaouen-blue);
+}
+
+.aircraft-registration {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.aircraft-type {
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+.aircraft-details {
+  padding: 24px;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.delete-btn {
+  background: var(--vermilion);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background: #c43e31;
+}
+
+.details-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-group input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+
+.form-group input[type="number"]::-webkit-outer-spin-button,
+.form-group input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+}
+
+.save-btn {
+  background: var(--chefchaouen-blue);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.save-btn:hover {
+  background: #3a84e3;
+  transform: translateY(-1px);
+}
+

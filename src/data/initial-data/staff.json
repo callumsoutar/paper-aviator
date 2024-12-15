@@ -1,0 +1,22 @@
+[
+    {
+      "id": "staff1",
+      "firstName": "Sarah",
+      "lastName": "Mitchell",
+      "email": "sarah@example.com",
+      "phone": "0400000001",
+      "ratings": ["CPL", "MEA", "IR"],
+      "instructorCategory": "Grade 1",
+      "active": true
+    },
+    {
+      "id": "staff2",
+      "firstName": "James",
+      "lastName": "Rodriguez",
+      "email": "james@example.com",
+      "phone": "0400000002",
+      "ratings": ["CPL", "IR"],
+      "instructorCategory": "Grade 2",
+      "active": true
+    }
+  ]
